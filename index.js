@@ -12,7 +12,7 @@ function isHabitablePlanet(planet) {
 
 const habitablePlanets = [];
 
-fs.createReadStream('./kepler_planets.csv')
+fs.createReadStream('./kepler-planets.csv')
   .pipe(
     parse({
       comment: '#',
